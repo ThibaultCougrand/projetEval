@@ -1,0 +1,37 @@
+/*************** FOOTER ************/
+footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: #bbb;
+    height: 21vh;
+}
+.icones {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+footer i {
+    color: #fff;
+    margin: 0 .5em;
+    transition: 1s;
+    &:hover {
+        color: #555;
+    }
+}
+.mention {
+    font-size: 0.5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mention a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.5em;
+    transition: 1s;
+    &:hover {
+        color: #555;
+    }
+}
+/*************** END-FOOTER ************/

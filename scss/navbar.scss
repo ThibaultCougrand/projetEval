@@ -1,0 +1,31 @@
+/************* NAVBAR **************/
+nav {
+    background-color: #bbb; 
+    height: 10vh;
+}
+nav ul {
+    height: 10vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 1.5em;
+}
+nav ul li:nth-child(1) {
+    //flex: 1;
+}
+nav li {
+    padding: 0 1em;
+    list-style: none;
+    font-size: 1.5em;
+}
+nav a {
+    text-decoration: none;
+    color: #fff;
+    padding: 0 1em;
+    transition: .5s;
+    &:hover {
+        color: #555;
+    }
+}
+/******************** END NAVBAR ********************/
