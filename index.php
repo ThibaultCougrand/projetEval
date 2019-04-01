@@ -1,5 +1,11 @@
 <?php
 
+session_start();
+
+/*******************/
+/*CONTROLER GENERAL*/
+/*******************/
+
 /*INITIALISATION DE LA VARIABLE LOC*/
 $loc = filter_input(INPUT_GET, 'loc');
 if (!$loc) {
