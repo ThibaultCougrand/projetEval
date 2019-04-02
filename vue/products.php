@@ -3,7 +3,7 @@
         <ul class="category">
             <li><a href="#" id="book">Livres</a></li>
             <ul class="book">
-                <li><a href="#">Sience Fiction</a></li>
+                <li><a href="#">Fiction</a></li>
                 <li><a href="#">Policier</a></li>
                 <li><a href="#">Programmation</a></li>
             </ul>
