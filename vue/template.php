@@ -28,6 +28,6 @@
         <!--JQUERY COOKIE-->
         <script src="js/jquery-cookie.js"></script>
         <!--MAIN JS-->
-        <script src="../js/main.js" type="text/javascript"></script>
+        <script src="js/main.js" type="text/javascript"></script>
     </body>
 </html>

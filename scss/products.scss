@@ -1,0 +1,38 @@
+/******* PRODUCTS *******/
+.container-products {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: .15fr .85fr;
+}
+.container-products aside {
+    background-color: #ddd;
+}
+.category {
+    list-style: none;
+    margin: 3vh 0 0 1vw;
+}
+.category > li {
+    font-size: 2.5em;
+}
+.category a {
+    text-decoration: none;
+    color: #444;
+    transition: .3s; 
+    &:hover {
+        color: #111;
+    }
+}
+.book, .CD, .DVD {
+    list-style: none;
+    margin-left: 1vw; 
+    font-size: 1.2em;
+}
+.container-products article {
+    
+}
+.container-products article > div {
+    height: 40vh;
+    width: 20vw;
+    background-color: #ddd;
+}
+/******* END PRODUCTS *******/
