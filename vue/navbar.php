@@ -1,7 +1,7 @@
 <nav>
     <ul>
         <li><a href="?loc=home">Accueil</li></a>
-        <li><a href="?loc=recipes">Catalogue</li></a>
+        <li><a href="?loc=products">Catalogue</li></a>
         <?php
         if (!isset($_SESSION['id'])) {
             echo '<li><a href="?loc=sign-in-up">Connexion</li></a>';

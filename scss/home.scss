@@ -1,0 +1,33 @@
+.container-home {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 100vh;
+}
+.container-home aside {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.image-bat {
+    height: 50vh;
+    width: 35vw;
+    background-image: url(../asset/image-bat.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.image-map {
+    height: 30vh;
+    width: 30vw;
+    background-image: url(../asset/image-map.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.container-home article {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
